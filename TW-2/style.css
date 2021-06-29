@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    border: 2px solid hotpink;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#kule_resim {
+    background-image: url("./kız\ kulesi.jpg");
+    width: 400px;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+#yazı {
+    margin-left: 20px;
+    /* display: flex; */
+    width: 1500px;
+    justify-content: center;
+    text-align: justify;
+}
+
+h2 {
+    margin-left: 200px;
+}
